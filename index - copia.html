@@ -1,0 +1,80 @@
+<html>
+<head>
+	<title>ESTOPA</title>
+	<link  type="text/css" rel="stylesheet" href="cssnosotros.css">
+</head>	
+ <script>
+        function cambiarImagen()
+        {
+            
+            let image = document.getElementById("image_holder");
+            console.log(image.src);
+            if(image.src.match("estopab.png"))
+                image.src = "estopaa.png";
+            else   
+                image.src = "estopab.png";
+        }
+    </script>
+            <body>
+<header>
+	<p><sup>E</sup>stop<sup>A</sup></p>
+	<h1>SOMOS ETOPA</h1>
+</header>
+<article>
+	<section>
+		<p><big>Esta es nuestra página web, haz clic en los enlaces para saber más.</big></p>
+			<ul>
+	<li><class="seleccionado">INICIO</a></li>
+	<li><a href="nosotros.html"> NOSOTROS</a></li>
+	<li><a href="cancionesestopa.html">CANCIONES</li>
+	<li><a href="conciertos.html">CONCIERTOS</a></li>
+	<li><a href="comoorganizarunconcierto.html">CÓMO ORGANIZAR UN CONCIERTO</a></li>
+			</ul>
+	</section>
+	<section>
+ 		<img id="image_holder" src="img/imagen.png" onclick="cambiarImagen()">
+   		<p>¡Haz click para cambiar imagen!</p>
+   	</section>
+</article>
+<aside>
+	<section>
+	<h2>CONSIGUE NUESTRO DISCO</h2>
+	<p>Con nuestras últimas canciones</p>
+	<p><IMG class="mediana" src="fotosestopa/discoestopa.jpg"alt="fotosestopa/discoestopa.jpg"></p>
+	<p>Estas son sus canciones:
+	<ul>
+	<li>La raja de tu falda</li>
+		<li>Pastillas de freno</li>
+		<li>Tragicomedia</li>
+		<li>Partiendo la pana</li>
+		<li>Cuando amanece</li>
+		<li>Cuerpo triste</li>
+	</ul>
+	</p>
+	</section>
+	<section>
+	<h2>Próximos conciertos</h2>
+	<p>
+	<ul>
+	<li>En Lleida (8 de mayo)</li>
+	<li>En Sevilla (23 de mayo)</li>
+	<li>En Valladolid (29 de mayo)</li>
+	<li>Els Muntells (5 de junio)</li>
+	<li>En Barakaldo (3 de julio)</li>
+	<li>En Palma (23 de julio)</li>
+	</p>
+	</section>
+	<section>
+	<h2>COMPRA NUESTRA CAMISETA</h2>
+	<p>La camiseta oficial del grupo</p>
+	<p>Disponemos de tallas XS, S, M,  L y XL</p>
+	<p><IMG class="mediana" src="camisetaestopa.jpg"alt="camisetaestopa.jpg"></p>
+	</section>
+</aside>
+<footer>
+	<p class="derechos">contenio propiedad de estopa</p>
+	<p class="contacto">Contactanos en <a herf="e.stop.a@correo.com">e.stop.a@correo.com</a></p>
+</footer>
+</body>
+
+</html>
